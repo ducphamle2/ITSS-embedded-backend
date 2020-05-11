@@ -34,6 +34,6 @@ def handle_message(msg):
 
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, host='192.168.43.236', port=8088)
+    socketio.run(app, debug=True)
     # app.run(debug=True)
     #app.run(host='0.0.0.0', port='8088')
