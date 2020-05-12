@@ -33,6 +33,9 @@ def handle_message(msg):
     #send(msg, broadcast=True)
 
 
+# NOTE: THIS MAIN FILENAME MUST MATCH THE NAME IN THE PROCFILE
+# Eg: this file is named main.py, then in procfile => main:app
+
 if __name__ == '__main__':
     socketio.run(app, debug=True)
     # app.run(debug=True)
